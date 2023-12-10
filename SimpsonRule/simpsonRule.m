@@ -60,7 +60,9 @@ function integral = simpsonRule(V, h)
     
     % Son adımın hesaplanması
     integral = alan * (h / 3);
- 
+
+    
+    %Ya da tüm yukarıdaki kodların yerine şu bir satır da aynı işi görür.
     % integral= (h/3)*(V(1)+V(end)+4*sum(V(2:2:n-1)) + 2*sum(V(3:2:n-2)))
 
 
