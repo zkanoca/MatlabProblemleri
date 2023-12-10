@@ -1,5 +1,9 @@
 %%
 % Simpson Rule kullanarak bir integralin yaklaşık sonucuna ulaşılması
+% 2023-12-10 
+% Author: zkanoca
+% Author email: iam@zkanoca.com.tr
+
 %%
 function integral = simpsonRule(V, h)    
     % Fonksiyon giriş değişkenleri
